@@ -10,6 +10,11 @@
     justify-content: center; 
 }
 
+.container-video-marketing .box-content {
+    width: 100%; 
+    max-width: 660px; 
+}
+
 .container-video-marketing .box-content div{
     display: flex; 
     justify-content: center; 
