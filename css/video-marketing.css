@@ -1,0 +1,31 @@
+.container-video-marketing{
+    height: 588px;
+    width: 100%;
+    background: #141414 url("../assets/img/background-img/Vector.svg") no-repeat center; 
+    background-size: cover; 
+    background-attachament: fixed; 
+
+    display: flex; 
+    align-items:center; 
+    justify-content: center; 
+}
+
+.container-video-marketing .box-content div{
+    display: flex; 
+    justify-content: center; 
+    align-itemes: center; 
+    padding-bottom: 24px; 
+}
+
+.container-video-marketing .box-content div p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+}
+

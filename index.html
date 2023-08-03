@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Pet Store</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+     <!--HEADER-->
+    <header class="header-container">
+      <!--HEADER MOBILE-->
+      <div class="header-main-mobile">
+        <a href="/">
+          <img src="assets/img/logo-seri.e.svg" alt="logo" />
+        </a>
+
+        <nav id="nav">
+          <button
+            id="btn-mobile"
+            arial-label="Open Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+          >
+            <span id="icon-hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="/">SHOP</a></li>
+            <li><a href="/">LANÇAMENTOS</a></li>
+            <li><a href="http://">BORN IN CHAOS</a></li>
+          </ul>
+        </nav>
+      </div>
+       <!--HEADER DESKTOP-->
+      <div class="header-main">
+        <div class="header-brand">
+          <a href="/">
+            <img src="assets/img/logo-seri.e.svg" alt="logo" />
+          </a>
+        </div>
+        <nav class="header-container-nav">
+          <ul>
+            <li><a href="/">SHOP</a></li>
+            <li><a href="/">LANÇAMENTOS</a></li>
+            <li><a href="http://">BORN IN CHAOS</a></li>
+          </ul>
+        </nav>
+        <div class="header-container-search">
+          <div>
+            <form method="post" action="#">
+              <button class="search-box-button">
+                <img src="assets/img/search.svg" alt="icone-search" />
+              </button>
+              <input
+                type="text"
+                class="search-box-input"
+                name="busca"
+                placeholder="BUSCAR PRODUTO ..."
+              />
+            </form>
+          </div>
+        </div>
+        <div class="header-container-user">
+          <div>
+            <a href=""><img src="assets/img/user.svg" alt="user"/></a>
+          </div>
+          <div class="header-container-shopping-bag">
+            <a href=""
+              ><img src="assets/img/shopping-bag.svg" alt="shopping-bag"
+            /></a>
+            <a href=""><img src="assets/img/Frame 181.svg" alt="99"/></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--MAIN-->
+    <main>
+      <!--SECTION BANNERS-->
+      <section class="container-banners">
+        <div>
+          <div>
+            <a href="http://">
+              <img
+                src="assets/img/Frame 34360 (1).svg"
+                alt="banner"
+                id="banner-main"
+              />
+            </a>
+          </div>
+          <div class="banners-category">
+            <a href="">
+              <img src="assets/img/Frame 34362 (1).svg" alt="banner-left" />
+            </a>
+            <a href="">
+              <img src="assets/img/Frame 34363 (1).svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+       <!--SECTION SHELF-->
+      <section class="container-shelf-product">
+        <div class="rich-text-title-shelf"><p>DESTAQUES</p></div>
+        <div class="container-children">
+          <div class="box-arrow">
+            <div>
+              <img
+                id="left"
+                src="assets/img/icons-arrows/chevron-left.svg"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                id="right"
+                src="assets/img/icons-arrows/chevron-right.svg"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
+        <ul class="container-carousel">
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/product-img/Group-186.svg"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/assets/img/product-img/Group-186.svg"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+       <!--SECTION VIDEO MARKETING-->
+      <section class="container-video-marketing">
+        <div class="box-content">
+          <div><p>#YOUTUBE</p></div>
+          <video
+            width="100%"
+            height="354"
+            controls="controls"
+            autoplay="autoplay"
+            src="https://www.youtube.com/embed/uyAQBasuGx0"
+          ></video>
+        </div>
+      </section>
+      <!--SECTION BANNER MARKETING-->
+      <section class="banner-marketing">
+        <div class="box-text-title">
+          <p>COLEÇÃO</p>
+        </div>
+        <a href="">
+          <img src="assets/img/Banners/Frame 34369.svg" alt="banner-marketing" />
+        </a>
+      </section>
+      <!--SECTION SHELF SALE-->
+      <section class="container-shelf-product-sale">
+        <div class="rich-text-title-shelf"><p>DESTAQUES</p></div>
+        <div class="box-arrow">
+          <div>
+            <img
+              id="left"
+              src="assets/img/icons-arrows/chevron-left.svg"
+              alt="img"
+            />
+          </div>
+          <div>
+            <img
+              id="right"
+              src="assets/img/icons-arrows/chevron-right.svg"
+              alt="img"
+            />
+          </div>
+        </div>
+        <ul class="container-carousel">
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="box-product">
+              <a href="/">
+                <img
+                  src="assets/img/Rectangle 518 (1).png"
+                  alt="img"
+                  draggable="false"
+              /></a>
+              <p class="name-product">Lorem ipsum</p>
+              <p class="product-price">R$ 1.598,00</p>
+              <p class="product-price-discout">R$ 1.598,00</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--SECTION NEWSLETTER-->
+      <section class="newsletter">
+        <div class="container-newsletter">
+          <div class="newsletter-text">
+            <p class="newsletter-rich-title">NEWSLETTER</p>
+            <p class="newsletetr-rich-text">
+              Cadastre seu e-mail e receba <span>novidades!</span>
+            </p>
+          </div>
+          <div class="newsletter-container-form">
+            <form action="" method="post">
+              <div class="box-email">
+                <img src="assets/img/envelope.svg" alt="email" />
+                <input
+                  type="text"
+                  name=""
+                  id="e-mail"
+                  placeholder="email@email.com.br"
+                />
+              </div>
+              <button type="submit">CADASTRAR</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--SECTION MORE INFORMATION-->
+      <section class="container-more-information">
+        <div class="flexRowContent-more-information">
+          <div class="flexColumn-brand">
+            <a href="/">
+              <img src="assets/img/Group 1879.svg" alt="Logo-banner" />
+            </a>
+          </div>
+          <div class="flexColumn-about">
+            <p>PRECISA DE AJUDA</p>
+            <div class="container-list-text">
+              <ul>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Políticas da Loja</a></li>
+                <li><a href="/">Políticas de Privacidade</a></li>
+                <li><a href="/">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="flexColunm-social-miida">
+            <div>
+              <p>REDES SOCIAS</p>
+            </div>
+            <div class="box-icons">
+              <img
+                src="assets/img/icons-social-midia/instagram.svg"
+                alt="icons-instagram"
+              />
+              <img
+                src="assets/img/icons-social-midia/facebook.svg"
+                alt="icons-facebook"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--SECTION STICKY-->
+      <section class="container-sticky">
+        <div class="sticky-layout">
+          <a href="/">
+            <img
+              src="assets/img/icon-contact/Group 60.svg"
+              alt="icon-contact"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <section class="container-copyright">
+        <div class="icons-copyright">
+          <a id="icon-tray" href=""
+            ><img
+              src="assets/img/icons-copyright/logo-fbits-branco.svg"
+              alt="icon-copyright"
+          /></a>
+          <a id="icon-serie" href=""
+            ><img
+              src="assets/img/icons-copyright/logo-seri.e (1).svg"
+              alt="icon-serie"
+          /></a>
+        </div>
+        <div class="box-text-copyright">
+          <p class="rich-text-copyright">@2023 Todos os direitos reservados</p>
+        </div>
+      </section>
+    </footer>
+
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/shelf/shelf.js" type="text/javascript"></script>
+    <script src="js/shelf/shelf-sale.js" type="text/javascript"></script>
+    <script src="js/menu-mobile/menuMobile.js" type="text/javascript"></script>
+  </body>
+</html>

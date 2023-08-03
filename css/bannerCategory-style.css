@@ -1,0 +1,27 @@
+
+
+.banner-marketing .box-text-title{
+    padding-top: 33 0 24px 0; 
+    background: #ffff url("../assets/img/background-img/Vector (1).svg") no-repeat center; 
+    background-size: cover; 
+    background-attachament: fixed;
+
+    stroke-width: 3px;
+    stroke: #000;*/
+}
+
+.banner-marketing .box-text-title p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.48px;
+    text-transform: uppercase;
+}
+
+.banner-marketing a img{
+    width:100%;
+}

@@ -1,0 +1,31 @@
+.container-sticky{
+   position: relative;  
+}
+
+.container-sticky .sticky-layout{
+    bottom: 70px; 
+    position: fixed; 
+    
+    z-index: 9999; 
+    right: 0; 
+    left: 94%; 
+}
+
+@media screen and (max-width: 1024px){
+    .container-sticky .sticky-layout{
+        bottom: 130px; 
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .container-sticky .sticky-layout{
+        left: 90%; 
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container-sticky .sticky-layout{
+        left: 82%; 
+    }
+}

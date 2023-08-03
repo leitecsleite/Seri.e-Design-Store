@@ -1,0 +1,128 @@
+.container-more-information {
+  display: flex;
+
+  justify-content: center;
+}
+
+.container-more-information .flexRowContent-more-information {
+  width: 90%;
+  display: flex;
+
+  padding: 50px 0 56px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-more-information .flexRowContent-more-information {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
+.container-more-information .flexRowContent-more-information div {
+  width: calc(100% / 3);
+}
+
+@media screen and (max-width: 1024px) {
+  .container-more-information .flexRowContent-more-information div {
+    width: 100%;
+  }
+}
+
+.container-more-information .flexRowContent-more-information .flexColumn-brand {
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColumn-about
+  > p {
+  font-family: "Arimo";
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 5%;
+  padding-bottom: 30px;
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColumn-about
+  .container-list-text {
+  width: 100%;
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColumn-about
+  .container-list-text
+  ul {
+  list-style-type: none;
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColumn-about
+  .container-list-text
+  ul
+  li {
+  padding-bottom: 5px;
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColumn-about
+  .container-list-text
+  ul
+  li
+  a {
+  text-decoration: none;
+
+  color: #000;
+  font-family: Arimo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-more-information
+    .flexRowContent-more-information
+    .flexColunm-social-miida,
+  .container-more-information
+    .flexRowContent-more-information
+    .flexColumn-about {
+    padding-top: 24px;
+  }
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColunm-social-miida
+  > div {
+  padding-bottom: 30px;
+
+  width: 100%;
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColunm-social-miida
+  > div
+  > p {
+  color: #000;
+  font-family: Arimo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.4%; /* 14.784px */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.container-more-information
+  .flexRowContent-more-information
+  .flexColunm-social-miida
+  .box-icons
+  img:first-child {
+  margin-right: 8px;
+}

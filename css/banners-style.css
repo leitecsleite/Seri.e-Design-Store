@@ -1,0 +1,56 @@
+.container-banners .banner-main {
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.container-banners #banner-main {
+  width: 100%;
+
+  transition: all 0.6s ease-in-out;
+}
+
+.container-banners #banner-main:hover {
+  transform: scale(1.1);
+}
+
+.container-banners .banners-category {
+  display: flex;
+  width: 100%;
+  margin-top: -8px;
+}
+
+.container-banners .banners-category a {
+  width: 50%;
+
+  overflow: hidden;
+}
+
+.container-banners .banners-category a img {
+  width: 100%;
+
+  transition: all 0.6s ease-in-out;
+}
+
+.container-banners .banners-category a img:hover {
+  transform: scale(1.1);
+}
+
+.container-banners div:first-child {
+  background: rgba(20, 20, 20, 1);
+
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-banners {
+    margin-top: 60px;
+  }
+  .container-banners .banners-category {
+    flex-direction: column;
+  }
+
+  .container-banners .banners-category a {
+    width: 100%;
+  }
+}
