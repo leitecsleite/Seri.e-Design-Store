@@ -30,7 +30,7 @@ footer .container-copyright .box-text-copyright {
   color: rgba(255, 255, 255, 1);
 }
 
-footer .container-copyright .box-text-copyright .rich-text-copyright{
+footer .container-copyright .box-text-copyright .rich-text-copyright {
   color: #fff;
   font-family: Arimo;
   font-size: 14px;
@@ -38,7 +38,6 @@ footer .container-copyright .box-text-copyright .rich-text-copyright{
   font-weight: 400;
   line-height: normal;
 }
-
 
 @media screen and (max-width: 1024px) {
   footer .container-copyright {

@@ -102,7 +102,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-bottom: 6px;
+  padding: 6px 0;
 }
 
 .container-shelf-product-sale
@@ -145,7 +145,7 @@
     .name-product,
   .product-price,
   .product-price-discout {
-    padding: 10px;
+    padding-left: 10px;
   }
 }
 

@@ -18,9 +18,9 @@
   background: #ffff;
 }
 
-.container-shelf-product .container-children{
+.container-shelf-product .container-children {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
 }
 
@@ -104,14 +104,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-bottom: 6px;
+  padding: 6px 0;
 }
 
 @media screen and (max-width: 550px) {
   .container-shelf-product .container-carousel .card .box-product .name-product,
   .product-price,
   .product-price-discout {
-    padding: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -126,7 +126,7 @@
   line-height: normal;
   text-decoration-line: strikethrough;
 
-  padding-bottom: 6px; 
+  padding-bottom: 6px;
 }
 
 .container-shelf-product
@@ -134,14 +134,14 @@
   .card
   .box-product
   .product-price-discout {
-    color: #000;
-    font-family: Arimo;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-  }
+  color: #000;
+  font-family: Arimo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
 
 @media screen and (max-width: 1024px) {
   .card .box-product a img {
