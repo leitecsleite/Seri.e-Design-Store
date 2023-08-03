@@ -6,7 +6,7 @@
     bottom: 70px; 
     position: fixed; 
     
-    z-index: 9999; 
+    z-index: 999; 
     right: 0; 
     left: 94%; 
 }
