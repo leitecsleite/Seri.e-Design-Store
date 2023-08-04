@@ -86,6 +86,27 @@
   display: flex;
   width: 100%;
   margin-top: -8px;
+
+  height: 508px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-banners .banners-category {
+    height: auto;
+  }
+}
+
+.container-banners .banners-category .box-main-banner.second,
+.box-main-banner.third {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-banners .banners-category .box-main-banner.second,
+  .box-main-banner.third {
+    width: 100%;
+  }
 }
 
 .container-banners .banners-category a {
@@ -118,7 +139,7 @@
 
   z-index: 555;
 
-  top: 47%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
