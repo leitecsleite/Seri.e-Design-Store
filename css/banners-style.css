@@ -107,6 +107,10 @@
   .box-main-banner.third {
     width: 100%;
   }
+
+  .container-banners .banners-category a img{
+    display: block; 
+  }
 }
 
 .container-banners .banners-category a {
