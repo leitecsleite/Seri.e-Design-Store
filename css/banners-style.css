@@ -102,6 +102,12 @@
   width: 50%;
 }
 
+.container-banners .banners-category .box-main-banner.second img,
+.box-main-banner.third img {
+  height: 100%;
+  max-height: 508px;
+}
+
 @media screen and (max-width: 1024px) {
   .container-banners .banners-category .box-main-banner.second,
   .box-main-banner.third {
@@ -111,6 +117,13 @@
   .container-banners .banners-category a img{
     display: block; 
   }
+  
+  .container-banners .banners-category .box-main-banner.second img,
+  .box-main-banner.third img {
+    height: auto; 
+    max-height: none; 
+  }
+
 }
 
 .container-banners .banners-category a {
