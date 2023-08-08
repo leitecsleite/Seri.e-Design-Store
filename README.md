@@ -12,7 +12,7 @@
 
 ...
 
-[Explore a Seri.e Design]([https://seu-url-serie-design.com](https://sage-parfait-cdb03c.netlify.app/))
+[Explore a Seri.e Design](https://sage-parfait-cdb03c.netlify.app/)
 
 # Seri.e Design: Where Creativity Takes Shape 🎨
 
@@ -28,5 +28,5 @@
 
 ...
 
-[Explore Seri.e Design](https://your-serie-design-url.com)
+[Explore Seri.e Design](https://sage-parfait-cdb03c.netlify.app/)
  
